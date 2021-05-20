@@ -1,0 +1,10 @@
+In our experience, thinking about how the UI should look at any given moment, rather than how to change it over time, eliminates a whole class of bugs.
+
+***************
+
+Re-render, don't mutate
+
+***************
+
+All React components must act like pure functions with respect to their props.
+Pure functions do not attempt to change their inputs, and always return the same result for the same inputs.
