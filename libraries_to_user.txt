@@ -1,0 +1,5 @@
+react
+axios
+react-router
+material-ui
+redux (for crosss-component state management and communication)
