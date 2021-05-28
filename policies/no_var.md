@@ -1,0 +1,1 @@
+# Only use `const` to define everything
