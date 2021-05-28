@@ -1,11 +1,53 @@
 {
+    "referencesComment": {
+        "versioningSyntax": {
+            "reference": "https://github.com/npm/node-semver#versions",
+            "only": "use exact version"
+        },
+        "prebuild-and-postbuild": {
+            "reference": "https://docs.npmjs.com/cli/v7/using-npm/scripts#life-cycle-scripts",
+            "use": "to automate some stuff"
+        },
+        "engine": {
+            "reference": "https://docs.npmjs.com/cli/v7/configuring-npm/package-json#engines",
+            "specify": "exact version to enforce version compatibility across holding developers"
+        },
+        "reuseAndReduce": {
+            "nodeModules": "https://docs.npmjs.com/cli/v7/using-npm/workspaces"
+        },
+        "eject": {
+            "for": "full customization using Webpack, Babel, ESLint, etc."
+        }
+    },
     "private": true,
-    "scripts": {
-        
-    },
-    "devDependencies": {
-    },
     "dependencies": {
-        
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-scripts": "4.0.3",
+        "web-vitals": "1.1.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
     }
 }
