@@ -21,7 +21,8 @@
         "run": {
             "on": "subdomain.domain.local",
             "atPort": "80",
-            "preferrablyUsing": "HTTPS"
+            "preferrablyUsing": "HTTPS",
+            "from": "https://create-react-app.dev/docs/using-https-in-development"
         },
         "test": {
             "globally": "just like database centralized tests"
@@ -29,12 +30,16 @@
         "support": {
             "olderBrowsers": "using polyfills",
             "at": "https://github.com/facebook/create-react-app/blob/master/packages/react-app-polyfill/README.md"
+        },
+        "route": {
+            "via": "https://reactrouter.com/"
         }
     },
     "private": true,
     "dependencies": {
         "react": "17.0.2",
         "react-dom": "17.0.2",
+        "react-router-dom": "5.2.0",
         "react-scripts": "4.0.3",
         "web-vitals": "1.1.2"
     },
