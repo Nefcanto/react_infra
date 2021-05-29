@@ -17,6 +17,18 @@
         },
         "eject": {
             "for": "full customization using Webpack, Babel, ESLint, etc."
+        },
+        "run": {
+            "on": "subdomain.domain.local",
+            "atPort": "80",
+            "preferrablyUsing": "HTTPS"
+        },
+        "test": {
+            "globally": "just like database centralized tests"
+        },
+        "support": {
+            "olderBrowsers": "using polyfills",
+            "at": "https://github.com/facebook/create-react-app/blob/master/packages/react-app-polyfill/README.md"
         }
     },
     "private": true,
